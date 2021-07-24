@@ -4,7 +4,7 @@ public class City {
 
     private Building[] buildings = new Building[4];
 
-            public void city(){
+        public City(){
         Item[] bankItems = new Item[2];
         bankItems[0] = new Item("Letter Opener",1.5);
         bankItems[1] = new Item("Stamp",2.5);
